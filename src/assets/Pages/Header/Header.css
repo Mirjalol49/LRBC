@@ -1,0 +1,66 @@
+.header {
+    position       : -webkit-sticky;
+    /* For Safari */
+    position       : sticky;
+    top            : 0;
+    z-index        : 100;
+    padding        : 10px 0 0 0;
+    backdrop-filter: blur(10px);
+    /* Blur effect for glass */
+    background     : rgba(255, 255, 255, 0.3);
+    /* Semi-transparent white background */
+    border-bottom  : 1px solid rgba(255, 255, 255, 0.18);
+
+    /* Add slight shadow */
+}
+
+.header-logo {
+    width       : 150px;
+    height      : auto;
+    margin-right: 50px;
+}
+
+.header-wrapper {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.header-middle-wrapper {
+    width          : 100%;
+    max-width      : 800px;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+
+}
+
+.header-links {
+    font-size  : 20px;
+    font-weight: 500;
+    color      : #222222;
+    transition : 0.1s ease-in;
+}
+
+.header-links:hover {
+    color: #0075EB;
+}
+
+.header-button {
+    font-size       : 20px;
+    font-weight     : 500;
+    padding         : 18px 30px;
+    background-color: #0075EB;
+    color           : #fff;
+    border-radius   : 10px;
+    transition      : 0.3s ease-in-out;
+}
+
+.header-button:hover {
+    background-color: #0259b1;
+}
+
+.header-button:active {
+    background-color: #003b77;
+
+}

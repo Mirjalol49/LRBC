@@ -1,0 +1,30 @@
+.hero-section {
+    background-color: var(--bg-dark);
+    color           : var(--white);
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+        url("https://cdn.prod.website-files.com/65bc7f07f2df35ff7c2fd079/65d323a088f943a8daaff56d_hero-main.jpg");
+    background-position: 0 0,
+        50%;
+    background-repeat: repeat,
+        no-repeat;
+    background-size: auto,
+        cover;
+    padding: 150px 0;
+}
+
+.hero-title {
+    font-size    : 64px;
+    color        : #fff;
+    font-weight  : 700;
+    margin-bottom: 10px;
+
+}
+
+.hero-text {
+    font-size    : 25px;
+    color        : #fff;
+    font-weight  : 400;
+    width        : 100%;
+    max-width    : 700px;
+    margin-bottom: 40px;
+}
