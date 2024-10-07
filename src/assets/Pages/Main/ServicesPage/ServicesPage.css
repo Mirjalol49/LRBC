@@ -1,0 +1,68 @@
+/* HoverImageLink.css */
+.service-link-container {
+    position  : relative;
+    display   : inline-block;
+    width     : 100%;
+    transition: 0.3s all;
+
+}
+
+.service-link-container:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+
+.service-title {
+    font-weight  : 700;
+    font-size    : 70px;
+    margin-top   : 70px;
+    margin-bottom: 50px;
+
+}
+
+.service-link {
+    text-decoration: none;
+    display        : inline-block;
+    padding        : 30px 0;
+    font-size      : 40px;
+    font-weight    : 500;
+    color          : #000;
+    position       : relative;
+    width          : 100%;
+}
+
+.service-link-container:first-child .service-link {
+    border-top   : 2px solid #c6c6c6;
+    /* Add top border to the first link */
+    border-bottom: 2px solid #c6c6c6;
+    /* Also apply bottom border */
+}
+
+.service-link {
+    border-bottom: 2px solid #c6c6c6;
+    /* Bottom border for all links */
+}
+
+.hover-image {
+    position      : fixed;
+    width         : 400px;
+    height        : auto;
+    opacity       : 0;
+    border-radius : 10px;
+    transform     : scale(0.3) translate(-50%, -50%);
+    /* Start smaller and hidden */
+    pointer-events: none;
+    /* Prevent interaction with the image */
+    transition    : opacity 1s ease-in-out, transform 0.3s ease-in-out;
+    /* Smooth pop-up effect */
+    z-index       : 1000;
+    /* Ensures image is above other elements */
+    border        : 1px solid #b7b7b7;
+}
+
+.service-link-container:hover .hover-image {
+    opacity  : 1;
+    /* Make the image visible when hovering */
+    transform: scale(1) translate(-50%, -50%);
+    /* Grows to full size */
+}

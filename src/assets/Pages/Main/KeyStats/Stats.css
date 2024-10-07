@@ -1,0 +1,12 @@
+.stats-section {
+    margin          : 70px 0;
+    background-color: #e2e2e2;
+    padding         : 40px 0;
+
+}
+
+.stats-wrapper {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}

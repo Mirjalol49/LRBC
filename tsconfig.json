@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // Other options...
+    "target": "es5", // or "es6", depending on your needs
+    "module": "commonjs", // or "esnext"
+    "jsx": "react-jsx", // Use "react" if you are using React 16 or earlier
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+    // Other options...
+  },
+  "include": [
+    "src/**/*" // Make sure to include your source files
+  ],
+  "exclude": [
+    "node_modules" // Exclude node_modules
+  ]
+}

@@ -1,14 +1,21 @@
-import React from "react";
 import Hero from "./Hero/Hero";
 import WhyChoose from "./WhyChoose/WhyChoose";
-import { ServicesSec } from "./ServicesSec/ServicesSec";
+
+import ServicePage from "./ServicesPage/ServicesPage";
+import { Stats } from "./KeyStats/Stats";
+import Steps from "./Steps/Steps";
+import VideoPage from "./VidPage/VideoPage";
 
 const Main = () => {
   return (
     <main>
       <Hero />
-      <ServicesSec />
-      <WhyChoose />
+
+      <ServicePage />
+      <Stats />
+      <Steps />
+      <VideoPage />
+      {/* <WhyChoose /> */}
     </main>
   );
 };

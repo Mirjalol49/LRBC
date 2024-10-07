@@ -1,0 +1,18 @@
+.steps-section {
+    margin: 70px 0;
+}
+
+.steps-wrapper {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.steps-box {
+    background-color: #E2E2E2;
+    padding         : 20px;
+    border-radius   : 10px;
+    width           : 100%;
+    max-width       : 650px;
+    margin-bottom   : 40px;
+}
